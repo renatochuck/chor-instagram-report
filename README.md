@@ -2,9 +2,8 @@
 
 ## 🔧 Features
 
-- Simulates Instagram report process
-- Fake report logs and IP spoofing
-- Cool Black Hat interface
+- Instagram report process
+-  report logs and IP spoofing
 - Educational purpose only
 
 ## 🚀 Usage
