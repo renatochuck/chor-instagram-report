@@ -132,13 +132,13 @@ def simulate_reports(username, total_reports=10, delay=1.5):
 
     print(Fore.GREEN + "[✓] All reports submitted successfully!" + Style.RESET_ALL)
     print(Fore.RED + "[!] Instagram account flagged and under review..." + Style.RESET_ALL)
-    print(Fore.YELLOW + "[!] This is a simulation tool for ethical hacking education only." + Style.RESET_ALL)
+    print(Fore.YELLOW + "[!] THis is for ethical hacking education only." + Style.RESET_ALL)
     time.sleep(1)
     print_blackhat_face()
 
 # === Simulate reporting multiple accounts ===
 def simulate_multiple_accounts(usernames, total_reports_per_user=5, delay=1):
-    print("\nStarting multi-account report simulation...\n")
+    print("\nStarting multi-account report...\n")
     for idx, username in enumerate(usernames, 1):
         print(Fore.MAGENTA + f"Reporting account {idx}/{len(usernames)}: @{username}" + Style.RESET_ALL)
         simulate_reports(username, total_reports=total_reports_per_user, delay=delay)
@@ -152,7 +152,7 @@ def simulate_mass_report(usernames, total_reports_per_user=3, delay=0.5):
             print_progress_bar(i, total_reports_per_user)
             print_report_details(username)
             time.sleep(delay)
-    print(Fore.GREEN + "[✓] Mass report simulation completed!" + Style.RESET_ALL)
+    print(Fore.GREEN + "[✓] Mass report completed!" + Style.RESET_ALL)
     print_blackhat_face()
 
 # === Load usernames from file ===
